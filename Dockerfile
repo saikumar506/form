@@ -1,4 +1,4 @@
 FROM nginx
 MAINTAINER sai
-COPY . /var/www/html
-CMD ["echo","hello"]
+COPY index.html /usr/share/nginx/html
+EXPOSE 80
