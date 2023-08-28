@@ -12,7 +12,7 @@ docker run hello-world
 ```
 sudo systemctl status docker
 ```
-## For systemctl or service commands need privileges to run
+### For systemctl or service commands need privileges to run
 # To start docker
 ```
 sudo systemctl start docker
